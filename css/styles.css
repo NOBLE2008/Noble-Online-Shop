@@ -1,0 +1,59 @@
+.slider_section .detail-box a, .shop_section .btn-box a{
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: yellow;
+    color: #ffffff;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.slider_section .detail-box a:hover, .shop_section .btn-box a:hover{
+    color: yellow;
+    border: 1px solid yellow;
+}
+.gift_section .detail-box .btn-box .btn2 {
+    color: white;
+    background-color: yellow;
+}
+.gift_section .detail-box .btn-box .btn2:hover{
+    color: yellow;
+    border: 1px solid yellow;
+} 
+.info_section .info_form form button, .contact_section button {
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+} 
+.info_section .info_form form button:hover, .contact_section button:hover{
+    color: blue;
+    background-color: rgb(45, 45, 45);
+    border: 1px solid blue;
+} 
+.contact_section button:hover{
+    background-color: white;
+}
+.slider_section .slider_container, .gift_section .box {
+    color: #fefefe;
+    background-color: rgba(70, 70, 234);
+    padding: 25px;
+    border-radius: 0 0 15px 15px;
+}
+.saving_section .box {
+    padding-top: 45px;
+    background-color: yellow;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+#navbarSupportedContent {
+    width: 100%;
+    background-color: rgb(234, 255, 0);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 15px 15px 0 0;
+}
